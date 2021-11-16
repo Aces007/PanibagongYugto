@@ -1,8 +1,6 @@
-def GradesRoundOff(n, decimals=0):
-    import math
-    multiplier = 10 ** decimals
-    return math.floor(n*multiplier + 0.5)/multiplier
-    
+from typing import Type
+
+
 Grades = float(input("What grade percentage did you attain this semester?: "))
 
 
@@ -37,12 +35,25 @@ elif Grades >= 97 and Grades <= 100:
     print("1.0")
     print("Excellent")
 
+import math
+def GradesRoundOff(n, decimals=0):
+    if not isinstance(decimals, int):
+        raise TypeError("Decimals must be an integer.")
+    elif decimals < 0:
+        raise ValueError("Decimal places has to be 0 or more.")
+    elif decimals == 0:
+        return math.trunc(n)
+
+    factor = 10.0**decimals
+    return math.trunc(n * factor) / factor
+
 def WhatIf():
     Inc = input("Have you completed all your requirements including major exam?: ")
     if Inc == ("Yes"):
         print("Congratulations, you passed.")
     elif Inc == ("No"):
         print("Unfortunately, you are incomplete.")
+
 
 def WhatIfPart2():
     Withdrawn = input("Did you withdraw from the university?: ")
@@ -56,4 +67,4 @@ def WhatIfPart2():
             print("You should have a conversation about this with your instructor.")
             
             
-GradesRoundOff(Grades)                                            
+GradesRoundOff(Grades)
