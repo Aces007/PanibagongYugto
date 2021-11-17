@@ -5,7 +5,8 @@ def MgaNumero():
     PangatloNaman = input("Lastly, your third number: ")
     return UnangNumero, PangalawangNumero, PangatloNaman
 
-# Then, this  
+
+# Then, this function will evaluate your provided numbers, then it will show the smallest number.
 def PangalawangList():
     MgaNumero2 = [FirstNum, SecondNum, ThirdNum] 
     for numbers in MgaNumero2:
@@ -16,5 +17,10 @@ def PangalawangList():
         else:
             print("The lowest number is Number 3") 
 
+
+# this variable pertains for the first function where you are required to provide three numbers in order for the program to work.
 FirstNum, SecondNum, ThirdNum = MgaNumero()
+
+
+# this variable then will, post-evaluation shows your smallest number out of three numbers. 
 PangalawangList()
