@@ -1,4 +1,3 @@
-from typing import Type
 # First of all, my program will require you to input your grade for the semester.
 Grades = float(input("What grade percentage did you attain this semester?: "))
 
@@ -57,6 +56,7 @@ else:
         print("Congratulations, you passed.")
     elif Inc == ("No"):
         print("Unfortunately, you are incomplete.")
+    else:
         Withdrawn = input("Did you withdraw from the university?: ")
         if Withdrawn == ("Yes"):
             print("Goodluck with your future endeavours.")
