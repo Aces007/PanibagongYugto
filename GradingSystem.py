@@ -49,7 +49,6 @@ elif GradeMoRoundedOff >= 94 and GradeMoRoundedOff <= 96:
 elif GradeMoRoundedOff >= 97 and GradeMoRoundedOff <= 100:
     print("1.0")
     print("Excellent")
-    
 # To add, the program will also evaluate you if you are incomplete. Another condition is if you withdrawn from the university, or you did 
 # not attend any class that says you are dropped.          
 else:
