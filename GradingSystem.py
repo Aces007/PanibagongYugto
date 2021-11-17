@@ -56,7 +56,7 @@ else:
         print("Congratulations, you passed.")
     elif Inc == ("No"):
         print("Unfortunately, you are incomplete.")
-    # For this else statement, any string values will do. Like I was not able to do any requirments. Which will then ask you if you
+    # For this else statement, any string values will do. Like I was not able to do any requirements. Which will then ask you if you
     # withdrawn from the university.
     else:
         Withdrawn = input("Did you withdraw from the university?: ")
