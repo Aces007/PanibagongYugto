@@ -1,11 +1,11 @@
-# From ranges 0-∞ input three numbers below:
+# So, the program will ask you first to input 3 numbers ranging from 0-∞ input three numbers below.
 def MgaNumero():
     UnangNumero = input("Provide your first number: ")
     PangalawangNumero = input("Providenow your second number: ")
     PangatloNaman = input("Lastly, your third number: ")
     return UnangNumero, PangalawangNumero, PangatloNaman
 
-
+# Then, this  
 def PangalawangList():
     MgaNumero2 = [FirstNum, SecondNum, ThirdNum] 
     for numbers in MgaNumero2:
