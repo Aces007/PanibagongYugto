@@ -57,7 +57,6 @@ else:
         print("Congratulations, you passed.")
     elif Inc == ("No"):
         print("Unfortunately, you are incomplete.")
-    else:
         Withdrawn = input("Did you withdraw from the university?: ")
         if Withdrawn == ("Yes"):
             print("Goodluck with your future endeavours.")
