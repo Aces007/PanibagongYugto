@@ -18,9 +18,9 @@ def PangalawangList():
             print("The lowest number is Number 3") 
 
 
-# this variable pertains for the first function where you are required to provide three numbers in order for the program to work.
+# This variable pertains for the first function where you are required to provide three numbers in order for the program to work.
 FirstNum, SecondNum, ThirdNum = MgaNumero()
 
 
-# this variable then will, post-evaluation shows your smallest number out of three numbers. 
+# This variable then will, post-evaluation shows your smallest number out of three numbers. 
 PangalawangList()
