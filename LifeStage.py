@@ -15,5 +15,3 @@ elif IlangTaonKaNa == 18:
     print("Legal Age")    
 elif IlangTaonKaNa >= 19:
     print("Adult")
-
-    
